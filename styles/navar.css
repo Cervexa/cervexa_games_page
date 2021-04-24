@@ -1,0 +1,65 @@
+nav{
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    display: block;
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.1em;
+    background:#fefefe;
+}
+nav .sv-nav .nav-title{
+    display: flex;
+    flex-direction: column;
+    padding-right: 1rem;
+}nav .sv-nav .nav-title *{
+    display: block;
+    text-align: left;
+    line-height: .7em;
+}nav .sv-nav .nav-title .top{
+    font-size: .7em;
+    color: #333;
+    font-weight: 900;
+}nav .sv-nav .nav-title .bottom{
+    font-size: 1.5em;
+    color: rgb(189, 47, 47);
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+
+
+.op-nav ul li{
+    display: inline-block;
+    position: relative;
+    padding: 0 .1rem;
+}.op-nav ul li a{
+    display: flex;
+    align-items: flex-end;
+    color: #111;
+    opacity: .8;
+    text-decoration: none;
+    font-weight: 600;
+    z-index: 10;
+}.op-nav ul li a:hover{
+    opacity: 1;
+}.op-nav ul li .drop{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 1rem;
+    left: 2px;
+    z-index: 9;
+    padding: .2rem .2rem;
+    padding-right: 1.5rem;
+    margin-top: 5px;
+    width: max-content;
+    border-left: 5px solid #333;
+    background: #fefefe;
+}.op-nav ul li .drop a{
+    font-size: .9em;
+}
+.op-nav ul li:hover > .drop{
+    display: flex;
+}
