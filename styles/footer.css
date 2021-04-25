@@ -26,3 +26,17 @@ footer .column .md3 a{
 }footer .column .md3 a:hover{
     opacity: 1;
 }
+
+@media only screen and (max-width: 660px)  {
+    footer .column{
+        justify-content: left;
+    }
+    .md3{
+        width: 50%;
+    } 
+}
+@media only screen and (max-width: 380px)  {
+    .md3{
+        width: 100%;
+    } 
+}

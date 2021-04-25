@@ -8,10 +8,15 @@
             <br>
             <h3>Contactame</h3>
             <a href="mailto:admin@cervexa.tk">Correo Electronico</a>
+            <br>
         </div>
         <div class="md3">
             <h3>Projectos</h3>
             <a href="http://">Draw WARS</a>
+            <br>
+            <h3>Nuestro equipo</h3>
+            <a href="/teams.php">Conoce a nuestros Devs</a>
+            <br>
         </div>
         <div class="md3">
             <h3>Acerca De</h3>
@@ -22,6 +27,7 @@
             <h3>Web</h3>
             <a href="https://github.com/Cervexa/cervexa_games_page">WebSite Repository</a>
             <a href="https://github.com/Cervexa/cervexa_games_page/blob/main/LICENSE">WebSite Licencia</a>
+            <br>
         </div>
     </div>
 </footer>

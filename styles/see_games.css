@@ -28,7 +28,28 @@ main .flx2 .info{
 }
 main .flx2 .frame{
     width: 40%;
-}main .flx2 .frame iframe{
+}main .flx2 .frame img{
     width: 100%;
+    height: auto;
     object-fit: cover;
+}
+
+@media only screen and (max-width: 880px)  {
+    main .flx2 .info{
+        width: 60%;
+    }
+    h1.main-title{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 700px)  {
+    main .flx2{
+        display: block;
+        position: relative;
+    }main .flx2 .info{
+        width: 100%;
+    }main .flx2 .frame{
+        width: 100%;
+    }
 }

@@ -35,3 +35,22 @@ header.main{
     font-family: cursive;
     text-overflow: ellipsis;
 }
+
+@media only screen and (max-width: 600px)  {
+    header.main .front .info{
+        font-size: .9em;
+        padding: 2.8rem 1rem;
+        padding-bottom: 1rem;
+        background-size: unset;
+    }
+}
+
+@media only screen and (max-width: 280px)  {
+    header.main .front *{
+        width: 100%;
+    }
+    header.main .front .info p{
+        height: 3px;
+        visibility: hidden;
+    }
+}
